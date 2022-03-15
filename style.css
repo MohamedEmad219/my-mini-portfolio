@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "cairo", sans-serif;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500&family=Dancing+Script:wght@500;600&family=Lobster&family=Sansita+Swashed:wght@400;700&display=swap");
+header , footer{
+    background-color: #3d4a59;
+    height: 120px;
+    animation: my_header infinite 4s;
+}
+@keyframes my_header {
+    0% {
+    border-radius: 0;
+    }
+  20% {
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  50% {
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+  60% {
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+  100% {
+    border-radius: 0;
+}}
+header h1{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 35px;
+}
+ul li {
+    display: flex;
+    justify-content: space-around;
+    display: inline-block;
+    font-size: 20px;
+    width: 25%;
+}
+ul {
+    padding-left: 250px;
+}
+.mode {
+    border: 2px solid #fff;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 0px;
+}
+.mode:hover {
+    color: black;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+#about-me {
+    width: 85%;
+    margin: 60px auto;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+    height: 370px;
+    border-radius: 20px;
+    padding-top: 1px;
+}
+.name {
+    background-color: #3d4a59;
+    width: 320px;
+    text-align: center;
+    height: 45px;
+    padding-top: 2px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#about-me img {
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 630px;
+}
+.my_name {
+    color: black;
+    position: absolute;
+    top: 440px;
+    left: 720px;
+    font-family: "Cairo", sans-serif;
+    font-family: "Dancing Script", cursive;
+    font-family: "Lobster", cursive;
+    font-family: "Sansita Swashed", cursive;
+}
+.fir-para{
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    font-weight: bold;
+    font-size: 21px;
+}
+.sec-para{
+    color: #000;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    font-weight: 500;
+}
+.face-book{
+    background-color: royalblue;
+    position: absolute;
+    top: 420px;
+    left: 280px;
+    border: 1px solid royalblue;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+#store{
+    width: 85%;
+    margin: 60px auto;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+    height: 400px;
+    border-radius: 20px;
+    padding-top: 1px;
+}
+footer{
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    animation: my_footer infinite 4s;
+}
+@keyframes my_footer {
+    0% {
+        border-radius: 0;
+    }
+    20% {
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+    }
+    50% {
+        border-top-right-radius: 60px;
+        border-top-left-radius: 60px;
+    }
+    60% {
+        border-top-right-radius: 80px;
+        border-top-left-radius: 80px;
+}}
+.container img{
+    width: 200px;
+    height: 148px;
+    padding: 2px;
+    border-radius: 10px;
+}
+.container{
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    margin: 20px auto;
+    height: 280px;
+    border-radius: 10px;
+}
+.container h1,p{
+    color: #000;
+}
+.container h1{
+    font-size: 19px;
+    padding-left: 5px;
+}
+.container p{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.container button{
+    background-color: royalblue;
+    width: 50px;
+    margin: 0 10px;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+}
